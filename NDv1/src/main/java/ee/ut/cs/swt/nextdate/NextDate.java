@@ -95,7 +95,7 @@ public class NextDate {
 						tomorrowDay = 1;
 						tomorrowMonth = 3;
 					}
-					// To seed "Fault 4", comment out the lines 99-100
+					// To seed "Fault 4", comment out the lines 99-100.
 					else
 						return "Invalid Input Date";
 				}
