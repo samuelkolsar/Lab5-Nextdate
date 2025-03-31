@@ -86,7 +86,7 @@ public class GTv1 {
 	public void testCreatesNextDate17() throws Throwable {
 	    NextDate nextDate0 = new NextDate((-90), (-90), (-90));
 	    String string0 = nextDate0.run(12, 31, 1990);
-	    assertEquals("12/32/1990", string0);
+	    assertEquals("1/1/1991", string0);
 	}
 
 	@Test(timeout = 4000)
